@@ -1,5 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import ShoppingList from './components/shoppingList';
+import Gallery from './components/gallery';
+import Car from './components/cars';
+import Table from './components/table';
+
 
 function App() {
   return (
@@ -17,9 +22,18 @@ function App() {
         >
           Learn React
         </a>
+        <ShoppingList name='Eid'/>
+        <Gallery name='My Gallery'/>
+        <Car name='My cars'/>
+        <Table name='My table'/>
       </header>
+      
+      
+
     </div>
   );
 }
 
 export default App;
+
+

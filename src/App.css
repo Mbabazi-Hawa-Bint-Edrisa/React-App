@@ -36,3 +36,141 @@
     transform: rotate(360deg);
   }
 }
+
+/* Table.css */
+
+.list {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #c94343;
+}
+
+list {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #db8686;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #ec8d8d;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+/* ShoppingList.css */
+
+.shopping-list {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.shopping-list h1 {
+  text-align: center;
+  color: #e23f3f;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.shopping-list ul {
+  list-style-type:none;
+  padding: 0;
+}
+
+.shopping-list li {
+  background-color: #8b2525;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Essay {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.Essay h1 {
+  text-align: center;
+  color: #333;
+}
+
+.Essay p {
+  margin-bottom: 10px;
+}
+
+.Essay pre {
+  background-color: #f2f2f2;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+.Essay .highlight {
+  background-color: yellow;
+}
+
+
+.cars {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.cars h2 {
+  text-align: center;
+  color: #e96363;
+}
+
+.cars div {
+  margin-bottom: 10px;
+}
+
+.cars p {
+  margin: 0;
+}
+
+.cars .highlight {
+  background-color: yellow;
+}
+
+/* Gallery.css */
+
+.Gallery {
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.image-container img {
+  max-width: 300px;
+  border-radius: 10px;
+}
